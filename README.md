@@ -3,7 +3,9 @@
 This repository contains an individual Android Studio project that creates a platform for communication among traders of all skill levels discuss strategy and the hottest stocks moving the market. 
 </br>
 </br>
-<img src="example.gif" width="200" height="400" />
+<img src="Post.jpg" width="200" height="400" />
+<img src="Chat.jpg" width="200" height="400" />
+<img src="Profile.jpg" width="200" height="400" />
 ## Development Environment
 - Android Studio 4.1
 - Android SDK
