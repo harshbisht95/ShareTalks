@@ -1,6 +1,6 @@
 # ShareTalks
 ## Stocks buy calls and Chat room.
-This repository contains an individual Android Studio project that creates a platform for communication among traders of all skill levels discuss strategy and the hottest stocks moving the market. 
+This repository contains an individual Android Studio project that creates a platform for communication among traders of all skill levels to discuss strategy and the hottest stocks moving the market. 
 
 ## Development Environment
 - Android Studio 4.1
