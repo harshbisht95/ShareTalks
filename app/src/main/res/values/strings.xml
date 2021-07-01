@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Share Talks</string>
+    <string name="tab_text_1">Global Chat</string>
+    <string name="tab_text_2">Share Calls</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <string-array name="type_arrays">
+        <item>--- Call Type ---</item>
+        <item>Momentum</item>
+        <item>Swing</item>
+        <item>Long</item>
+    </string-array>
+</resources>

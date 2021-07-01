@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="HardcodedText">
+    <group>
+    <item
+        android:id="@+id/My_Account33"
+        android:icon="@drawable/user"
+        android:title="My Account"
+        >
+        </item>
+    </group>
+<group>
+    <item android:title="Clan"
+        android:icon="@drawable/ic_baseline_group_24"
+        android:id="@+id/clan"/>
+</group>
+<group>
+    <item android:title="Logout"
+        android:icon="@drawable/ic_baseline_power_off_24"
+        android:id="@+id/logout"/>
+    </group>
+</menu>

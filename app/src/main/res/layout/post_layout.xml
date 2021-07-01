@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="10dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="20dp"
+    android:scrollbars="vertical"
+    app:cardCornerRadius="10dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <LinearLayout android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+             >
+
+            <TextView
+                android:id="@+id/StockName"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="@dimen/post_layout_cardview_internal_margin"
+                android:background="@drawable/linear_layout"
+                android:gravity="center"
+                android:hint="HDFCAMC"
+                android:scaleType="centerCrop"
+                android:textColorHint="#FFFFFF"
+                android:textColor="#FFFFFF"/>
+        </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:background="@drawable/bg_border">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:background="@drawable/bg_border"
+            >
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:hint="Buy"
+                android:textColor="#FFFFFF"
+                android:layout_margin="@dimen/post_layout_cardview_internal_margin"
+                android:paddingLeft="10dp"
+                android:background="@drawable/linear_layout"
+                android:textColorHint="#FFFFFF"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:scaleType="centerCrop"/>
+            <TextView
+                android:id="@+id/Buy"
+                android:layout_margin="@dimen/post_layout_cardview_internal_margin"
+                android:background="@drawable/linear_layout"
+                android:textColorHint="#FFFFFF"
+                android:layout_width="0dp"
+                android:textColor="#FFFFFF"
+                android:layout_weight="3"
+                android:paddingLeft="10dp"
+                android:hint="150"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:scaleType="centerCrop"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:orientation="vertical"
+            android:background="@drawable/bg_border">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:orientation="horizontal"
+                android:background="@drawable/bg_border"
+                android:layout_weight="1">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:background="@drawable/linear_layout"
+                    android:layout_margin="@dimen/post_layout_cardview_internal_margin"
+                    android:textColorHint="#FFFFFF"
+                    android:hint="Target 1"
+                    android:textColor="#FFFFFF"
+                    android:gravity="center_vertical"
+                    android:layout_weight="3"
+                    android:paddingLeft="10dp"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"/>
+                <TextView
+                    android:layout_width="0dp"
+                    android:background="@drawable/linear_layout"
+                    android:layout_margin="@dimen/post_layout_cardview_internal_margin"
+                    android:textColorHint="#FFFFFF"
+                    android:hint="180"
+                    android:textColor="#FFFFFF"
+                    android:gravity="center_vertical"
+                    android:layout_weight="3"
+                    android:id="@+id/Target1"
+                    android:paddingLeft="10dp"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"/>
+                <de.hdodenhof.circleimageview.CircleImageView
+                    app:civ_border_width="1dp"
+                    android:background="@drawable/linear_layout"
+                    android:layout_margin="@dimen/post_layout_cardview_internal_margin"
+                    android:textColorHint="#FFFFFF"
+                    android:layout_weight="1"
+
+                    android:layout_centerInParent="true"
+                    android:padding="2dp"
+                    android:src="@drawable/post_status"
+                    app:civ_border_color="#FF000000"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"/>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:orientation="horizontal"
+                android:background="@drawable/bg_border"
+                android:layout_weight="1">
+                <TextView
+                    android:layout_width="0dp"
+                    android:hint="Target 2"
+                    android:background="@drawable/linear_layout"
+                    android:textColorHint="#FFFFFF"
+                    android:textColor="#FFFFFF"
+                    android:gravity="center_vertical"
+                    android:layout_weight="3"
+                    android:layout_margin="@dimen/post_layout_cardview_internal_margin"
+                    android:paddingLeft="10dp"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"/>
+                <TextView
+                    android:layout_width="0dp"
+                    android:hint="200"
+                    android:background="@drawable/linear_layout"
+                    android:textColorHint="#FFFFFF"
+                    android:id="@+id/Target2"
+                    android:gravity="center_vertical"
+                    android:textColor="#FFFFFF"
+                    android:layout_weight="3"
+                    android:layout_margin="@dimen/post_layout_cardview_internal_margin"
+                    android:paddingLeft="10dp"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"/>
+                <de.hdodenhof.circleimageview.CircleImageView
+                    app:civ_border_width="1dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/linear_layout"
+                    android:textColorHint="#FFFFFF"
+                    android:padding="2dp"
+                    android:layout_margin="@dimen/post_layout_cardview_internal_margin"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/post_status_yellow"
+                    app:civ_border_color="#FF000000"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"/>
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+
+
+        </LinearLayout>
+        <LinearLayout android:layout_height="50dp"
+            android:layout_width="match_parent"
+            android:background="@drawable/bg_border">
+            <TextView
+                android:layout_width="0dp"
+                android:hint="Trade Type"
+                android:background="@drawable/linear_layout"
+                android:textColor="#FFFFFF"
+                android:layout_margin="@dimen/post_layout_cardview_internal_margin"
+                android:textColorHint="#FFFFFF"
+                android:gravity="center_vertical"
+
+                android:paddingLeft="10dp"
+                android:layout_weight="1"
+
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"/>
+            <TextView
+                android:layout_width="0dp"
+                android:background="@drawable/linear_layout"
+                android:textColorHint="#FFFFFF"
+                android:layout_margin="@dimen/post_layout_cardview_internal_margin"
+                android:gravity="center_vertical"
+                android:textColor="#FFFFFF"
+                android:id="@+id/TradeType"
+                android:paddingLeft="10dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"/>
+            <TextView
+                android:layout_width="0dp"
+                android:hint="Trade Time"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dp"
+                android:layout_margin="@dimen/post_layout_cardview_internal_margin"
+                android:background="@drawable/linear_layout"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#FFFFFF"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"/>
+            <TextView
+                android:layout_width="0dp"
+                android:gravity="center_vertical"
+                android:id="@+id/TradeTime"
+                android:paddingLeft="10dp"
+                android:textColor="#FFFFFF"
+                android:layout_margin="@dimen/post_layout_cardview_internal_margin"
+                android:background="@drawable/linear_layout"
+                android:textColorHint="#FFFFFF"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"/>
+        </LinearLayout>
+        <LinearLayout android:layout_height="match_parent"
+            android:background="@drawable/bg_border"
+            android:layout_width="match_parent">
+            <Button
+                android:layout_width="30dp"
+                android:layout_marginLeft="10dp"
+                android:paddingLeft="10dp"
+                android:layout_margin="@dimen/post_layout_cardview_internal_margin"
+                android:layout_height="30dp"
+                android:gravity="center_vertical"
+                android:background="@drawable/ic_baseline_thumb_up_24"
+
+                />
+
+            <TextView
+                android:id="@+id/Likes"
+                android:layout_width="0dp"
+                android:background="@drawable/linear_layout"
+                android:textColorHint="#FFFFFF"
+                android:hint="0"
+                android:textColor="#FFFFFF"
+                android:layout_margin="@dimen/post_layout_cardview_internal_margin"
+                android:paddingLeft="15dp"
+                android:gravity="center_vertical"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:textSize="18sp" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
